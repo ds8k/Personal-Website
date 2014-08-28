@@ -1,0 +1,318 @@
+﻿@charset "UTF-8";
+
+/* 	
+	Name:	Cameron Bates
+	Date:	April 14th, 2012
+	
+	Website Final Project CSS
+*/
+
+body {
+	background-color: #191919;
+}
+
+#wrapper{
+	width:1000px;
+	height:775px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#top{
+	width:1000px;
+	height:100px;
+}
+	
+	
+	
+	
+/*LEFT*/
+
+#topleft{
+	width:333px;
+	height:100px;
+	float:left;
+}
+
+#toplefttop{
+	width:333px;
+	height:12px;
+	background-color:#075056;
+}
+
+#topleftmiddle{
+	height:55px;
+	width:333px;
+	background-color:#075056;
+	padding-top:5px;
+	text-align:center
+}
+
+#topleftmiddle2{
+	width:333px;
+	height:10px;
+	background-color:#075056;	
+}
+
+#topleftbottom{
+	width:333px;
+	height:18px;
+	background-color:#075056;	
+}
+
+
+
+/*MIDDLE*/
+
+#topmiddle{
+	width:333px;
+	height:100px;
+	float:left;
+}
+
+#topmiddletop{
+	width:333px;
+	height:12px;	
+}
+
+#topmiddlemiddle{
+	height:40px;
+	width:258px;
+	background-color:#fff;
+	padding-left:75px;
+	padding-top:20px;
+}
+
+#topmiddlemiddle2{
+	width:333px;
+	height:10px;	
+}
+
+#topmiddlebottom{
+	width:333px;
+	background-color:#075056;
+	height:18px;	
+}
+
+
+
+
+
+
+/*RIGHT*/
+
+#topright{
+	width:333px;
+	height:100px;
+	float:left;
+}
+
+#toprighttop{
+	width:333px;
+	height:12px;
+}
+
+#toprightmiddle{
+	height:40px;
+	width:258px;	
+	padding-left:75px;
+	padding-top:20px;	
+}
+
+#toprightmiddle2{
+	width:333px;
+	height:10px;	
+}
+
+#toprightbottom{
+	width:334px;
+	background-color:#075056;
+	height:18px;	
+}
+
+
+
+
+
+#topleftmiddle a{
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:45px;
+	text-align:center;
+	text-decoration:none;
+}
+#topleftmiddle a:hover{
+	color:#000;
+}
+
+#toprightmiddle li a.current{
+	color:#075056;
+}
+#toprightmiddle li a.current:hover{
+	color:#333;
+}
+
+#topmiddletmiddle li a.current{
+	color:#075056;
+}
+#topmiddlemiddle li a.current:hover{
+	color:#333;
+}
+
+
+
+
+
+#toprightmiddle ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+
+#toprightmiddle li{
+	float:left;
+}
+
+#toprightmiddle li a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	text-decoration:none;
+	color:#333;
+	display:block;
+	padding:5px;
+	margin-right:50px;
+}
+
+#toprightmiddle li a:hover{
+	color:#075056;
+}
+
+#topmiddlemiddle ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+
+#topmiddlemiddle li{
+	float:left;
+}
+
+#topmiddlemiddle li a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	text-decoration:none;
+	color:#333;
+	display:block;
+	padding:5px;
+	margin-right:25px;
+}
+
+#topmiddlemiddle li a:hover{
+	color:#075056;
+}
+
+/*BOTTOM*/
+
+#bottom{
+	width:1000px;
+	height:656px;
+	background-image:url(images/background2_vv.png);
+}
+
+#bottomtop{
+	width:950px;
+	height:313px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#E6E7E8;
+	padding-top:12px;
+	margin-bottom:20px;
+	
+}
+#bottombottom{
+	width:1000px;
+	height:300px;
+
+}
+
+#bottombottomleft{
+	width:325px;
+	height:300px;
+	float:left;
+	border-right-width: thin;
+	border-right-style: dashed;
+	border-right-color: #999;
+	font:Georgia, "Times New Roman", Times, serif;
+	color:#333;
+	font-size:14px;
+	padding-left:30px;
+	padding-right:20px;
+	
+}
+#bottombottommiddle{
+	width:325px;
+	height:300px;
+	float:left;
+	border-right-width: thin;
+	border-right-style: dashed;
+	border-right-color: #999;
+	font:Georgia, "Times New Roman", Times, serif;
+	color:#333;
+	font-size:14px;
+	padding-left:30px;
+	padding-right:20px
+}
+#bottombottomright{
+	width:195px;
+	height:300px;
+	float:right;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	padding-left:30px;
+	padding-right:20px
+}
+
+#bottombottomright a{
+	text-decoration:none;
+	color:#075056;
+}
+#bottombottomright a:hover{
+	color:#333;
+}
+
+#heading{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+	font-size:13px;
+	font-weight:bold;
+}
+
+
+
+img{
+	border:none;
+}
+
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+	font-size:14px;
+}	
+
+label {
+   clear: left;
+   display: block;
+   float: left;
+   text-align: left;
+   margin: 2px 5px;
+   width: 25%;
+}
+
+input {
+   display: block;
+   float: left;
+   margin: 2px 0px;
+   width: 60%;
+}
